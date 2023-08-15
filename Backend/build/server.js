@@ -9,7 +9,7 @@ const envConfig_1 = require("./config/envConfig");
 (0, database_1.connectToDatabase)()
     .then(() => {
     app_1.default.listen(envConfig_1.PORT, () => {
-        console.log(`Server started on port ${envConfig_1.PORT}`);
+        console.log(`server jalan di port  ${envConfig_1.PORT}`);
     });
 })
     .catch((err) => {

@@ -76,7 +76,7 @@ class ProductListController {
                     imgthumbnail,
                     description,
                 };
-                yield this.productListController.updateProduct(id, updatedProduct);
+                yield this.productListController.updateProduct(_id, updatedProduct);
                 res.status(200).json({ message: 'Video thumbnail updated successfully' });
             }
             catch (error) {
